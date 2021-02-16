@@ -1,16 +1,16 @@
-body{
-  background-color: #9266ff;
+body {
+  background-color: #331d6b;
 }
-.App{
+.App {
   background-color: #3f3160;
-  min-height:500px;
+  min-height: 500px;
   width: 400px;
   margin: 40px auto;
 }
 
-#to-do-form input{
+#to-do-form input {
   background-color: rgba(27, 112, 137, 1);
-  border: 0; 
+  border: 0;
   color: #fff;
   width: 200px;
   height: 50px;
@@ -19,20 +19,20 @@ body{
   font-size: 18px;
   border-radius: 10px;
 }
-#to-do-form input::placeholder{
-  color: rgba(255,255,255,0.5);
+#to-do-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
 }
-#to-do-form input:focus{
+#to-do-form input:focus {
   outline: none;
 }
-#to-do-form button{
+#to-do-form button {
   height: 50px;
   width: 80px;
   border-radius: 5px;
   border: 0;
-  background-color:rgba(202, 156, 24, 1); 
+  background-color: rgba(202, 156, 24, 1);
   cursor: pointer;
 }
-#to-do-form button:focus{
+#to-do-form button:focus {
   outline: none;
 }
