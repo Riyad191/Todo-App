@@ -15,7 +15,14 @@ body {
 }
 h1 {
   font-size: 50px;
+  color: #ff4a4a;
+}
+h1 span {
   color: #750000;
+  border: solid 6px #750000;
+  padding: 0 10px 5px;
+  border-radius: 10px;
+  margin-right: 10px;
 }
 
 #to-do-form input {
