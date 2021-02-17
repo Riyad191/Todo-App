@@ -67,14 +67,17 @@ class App extends React.Component {
     return (
       <div className="App">
         <header>
+          <h1>Todo App</h1>
           <form id="to-do-form" onSubmit={this.addItem}>
             <input
               type="text"
-              placeholder="Enter task"
+              placeholder="What To do"
               value={this.state.currentItem.text}
               onChange={this.handleInput}
             ></input>
-            <button type="submit">Add</button>
+            <button type="submit">
+              <i class="fas fa-plus"></i>
+            </button>
           </form>
           <p>{this.state.items.text}</p>
 

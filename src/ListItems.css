@@ -1,45 +1,50 @@
-.list{
-    color: #fff;
-    width: 300px;
-    margin: 20px auto;
-    height: 50px;
-    background-color: #bf07ac;
-    border-radius: 5px;
+.list {
+  color: #fff;
+  color: #ff4c46;
+
+  width: 400px;
+  margin: 20px auto;
+  height: 50px;
+  padding: 0 0 0 5px;
+  background-color: #bf07ac;
+  background-color: rgb(61, 61, 61);
+  border-radius: 25px;
 }
-.list p{
-    padding: 10px;
-    position: relative;
-    transition: ease-in-out;
+.list p {
+  padding: 13px 10px 10px 10px;
+  position: relative;
+  transition: ease-in-out;
 }
-.list p input{
-    background-color: transparent;
-    border: 0;
-    color: #fff;
-    font-size: 18px;
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: #005c31;
+  color: rgb(255, 197, 121);
+  font-size: 18px;
 }
-.list p input:focus{
-    outline: none;
+.list p input:focus {
+  outline: none;
 }
-.list p span{
-    position: absolute;
-    right: 10px;
+.list p span {
+  position: absolute;
+  right: 10px;
 }
-.faicons{
-    margin: 0 5px;
-    font-size: 15px;
-    cursor: pointer;
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
 }
-.itemsAnim-enter{
-    opacity: 0.01;
+.itemsAnim-enter {
+  opacity: 0.01;
 }
-.itemsAnim-enter .itemsAnim-enter-active{
-    opacity: 1;
-    transition: opacity 300ms ease-in
+.itemsAnim-enter .itemsAnim-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
 }
-.itemsAnim-leave{
-    opacity: 1;
+.itemsAnim-leave {
+  opacity: 1;
 }
-.itemsAnim-leave .itemsAnim-leave-active{
-    opacity: 0.01;
-    transition: opacity 300ms ease-in
+.itemsAnim-leave .itemsAnim-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }
