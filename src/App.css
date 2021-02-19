@@ -78,7 +78,7 @@ i {
   .App {
     border-radius: 0px;
     min-height: 500px;
-    width: 400px;
+    width: 340px;
     padding-top: 20px;
   }
   body {
@@ -88,7 +88,7 @@ i {
     height: 100vh;
   }
   #to-do-form input {
-    width: 240px;
+    width: 200px;
     height: 40px;
   }
   h1 {
