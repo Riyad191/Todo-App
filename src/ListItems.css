@@ -6,15 +6,17 @@
   margin: 20px auto;
   height: 50px;
   padding: 0 0 0 5px;
-  background-color: #bf07ac;
+
   background-color: rgb(61, 61, 61);
   border-radius: 25px;
 }
+
 .list p {
   padding: 13px 10px 10px 10px;
   position: relative;
   transition: ease-in-out;
 }
+
 .list p input {
   background-color: transparent;
   border: 0;
@@ -22,6 +24,7 @@
   color: rgb(255, 197, 121);
   font-size: 18px;
 }
+
 .list p input:focus {
   outline: none;
 }
@@ -47,4 +50,27 @@
 .itemsAnim-leave .itemsAnim-leave-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in;
+}
+@media (max-width: 768px) {
+  .list p input {
+    background-color: transparent;
+    border: 0;
+    color: #005c31;
+    color: rgb(255, 197, 121);
+    font-size: 18px;
+  }
+  .list {
+    width: 260px;
+    margin: 10px auto;
+    height: 40px;
+    padding: 0 0 0 5px;
+
+    background-color: rgb(61, 61, 61);
+    border-radius: 25px;
+  }
+  .list p {
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    transition: ease-in-out;
+  }
 }
