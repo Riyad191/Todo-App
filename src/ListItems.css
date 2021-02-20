@@ -1,28 +1,27 @@
 .list {
   color: #ff4c46;
-
   width: 400px;
   margin: 20px auto;
   height: 50px;
-  padding: 0 0 0 5px;
-
+  /* padding: 0 0 0 5px; */
   background-color: rgb(61, 61, 61);
   border-radius: 25px;
 }
 
 .list p {
-  padding: 10px 10px 10px 10px;
-  position: relative;
+  padding: 12px 10px 0;
   transition: ease-in-out;
+
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
 .list p input {
+  width: 100%;
   background-color: transparent;
-  padding: 0px;
-  color: #005c31;
+  border: 0;
+
   color: rgb(255, 197, 121);
   font-size: 18px;
 }
@@ -54,9 +53,9 @@
   .list p input {
     background-color: transparent;
     border: 0;
-    color: #005c31;
+
     color: rgb(255, 197, 121);
-    font-size: 18px;
+    font-size: 15px;
   }
   .list {
     width: 250px;
@@ -64,18 +63,23 @@
     height: 40px;
     padding: 0;
 
-    background-color: rgb(61, 61, 61);
+    background: none;
     border-radius: 25px;
+    padding: 0;
   }
+
   .list p {
-    padding: 10px 10px 10px 10px;
-    position: relative;
-    transition: ease-in-out;
+    /* border: solid red 2px; */
+    padding: 0 6px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(61, 61, 61);
   }
-  .list p span {
-    margin-bottom: 30px;
+  .faicons {
+    font-size: 12px;
+    margin-bottom: 3px;
   }
 }
