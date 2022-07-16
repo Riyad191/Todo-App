@@ -2,7 +2,4 @@
 https://the--todo--app.herokuapp.com/
 
 
-
-![empty](https://user-images.githubusercontent.com/62153882/109667609-2b931d00-7b25-11eb-87bf-c63c37485e05.PNG)
-![todo](https://user-images.githubusercontent.com/62153882/109667646-351c8500-7b25-11eb-8b9b-88181d9cf142.PNG)
-![gym](https://user-images.githubusercontent.com/62153882/109667676-3cdc2980-7b25-11eb-8386-036596d7c815.PNG)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/62153882/179346033-3c751107-f659-4ee0-80ff-13b26b677e88.gif)
